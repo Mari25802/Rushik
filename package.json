@@ -1,9 +1,16 @@
 {
-  "devDependencies": {
-    "gh-pages": "^6.2.0"
-  },
+  "name": "rushik",
+  "version": "1.0.0",
   "scripts": {
-   "deploy": "npm run build && some-deployment-command"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "deploy": "npm run build && your-deployment-command"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {}
 }
 
-}
